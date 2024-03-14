@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+
+    <style>
+        body {
+          background-color: rgb(101, 205, 236);
+          background-repeat:no-repeat : 
+          
+        }
+
+
+        </style>
+</head>
+<body text="yellow">
+    <div style="border:dotted 5px rgb(46, 17, 212); border-color: blue;">
+    
+    <form action="sucsess.html">
+    <table bgcolor="blue" height="80%" width="60%">
+        
+    
+
+<tr><br>
+<td label for="fname">FIRST NAME</label>              
+</td>
+
+<td>
+<input type="text" id="fname" name="fname" placeholder="Enter first name" required maxlength="30">
+       (max 30 characters a-z and A-Z)</td>
+</tr>
+
+<tr>
+   <td label for="lname">LAST NAME</label>              
+   </td>
+   <td>
+   <input type="text" id="lname" name="lname" placeholder="Enter last name" required maxlength="30">
+          (max 30 characters a-z and A-Z)</td>
+  </tr>
+
+<tr>
+<td label for="email">EMAIL:</label>              
+</td>
+<td>
+<input id="email" name="fname" placeholder="Enter your email here" required maxlength="30">
+   </td><br>
+   <tr>
+    <td label for="PH">MOBILE NUMBER:</label>              
+    </td>
+    <td>
+    <input type="text" id="PH" name="PH" placeholder="Enter NUMBER HERE" required maxlength="30">
+           (max 11 characters )</td>
+           
+        </td>  
+        </tr>              
+<br>
+
+<tr>
+<td label for="Comments">Comments</td></lable>       
+<td>
+<textarea name="comments"  cols="30" rows="10"></textarea>   </td>                        
+</tr>
+<tr>
+<td label for="Gender">Gender</td></lable>  
+<td>
+Male: <input type="radio" value="Male" id="">
+
+Female: <input type="radio" value="Female" id="">
+others:<input type="radio" value="others" id="">
+</td>
+
+
+</tr>
+<tr>
+<td label for="dob">DATE OF BIRTH</label>              
+</td>
+<td>
+<select id="days" name="days">
+    <option value="" selected disabled hidden>Day:</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+ <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+    <option value="31">31</option>        
+    <option value="18">18</option>
+</select>
+
+
+    <select id="month" name="month">
+        <option value="" selected disabled hidden>month:</option>
+        <option value="january">january</option>
+        <option value="feburary">feburary</option>
+        <option value="march">march</option>
+        <option value="april">april</option>
+        <option value="may">may</option>
+        <option value="june">june</option>
+        <option value="july">july</option>
+        <option value="august">august</option>
+        <option value="september">september</option>
+        <option value="october">october</option>
+        <option value="november">november</option>
+        <option value="december">december</option>                      
+    </select>                         
+    
+    <select id="year" name="year">
+        <option value="" selected disabled hidden>year:</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+    </select>
+    </td> 
+</tr> 
+        <tr>
+            <td>Courses Applied For</td>
+            <td>
+                 
+                <select id="Courses" name="Name OF Courses">
+                    <option value="" selected disabled hidden>Plz select your Courses:</option>
+                    <option value="we">Web Development/option>
+                    <option value="ms">M.S Office</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JAVA">JAVA</option>
+                    <option value="HTML">HTML</option>
+                    <option value="cit">C.I.T</option>
+                    
+                </td> 
+                <tr>
+                    <td>
+                        Qualification </td>
+                        <td>Sl.No.Examination:</td>
+
+                        <td>Board</td>
+                        <td>Persantage</td>
+                        <td>Year of passing</td>
+                   </tr>
+                   <tr>
+                    <td colspan="1">
+                        <td>1.
+                            class X                                                                </td>
+                    </td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td colspan="1">
+                        <td>2.
+                            class X11                                                                </td>
+                    </td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td colspan="1">
+                        <td>3.
+                            Graduation                                                               </td>
+                    </td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td colspan="1">
+                        <td>4.
+                            Master                                                                </td>
+                    </td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2"></td>
+                    <td>(10 char max)</td>
+                    <td>(up to 2 decimal)</td>
+                   </tr>
+                   <tr>
+                 <td>COURSES<br>APPLIED FOR</td>
+                 <td>
+                    <input type="radio"id=""name="course applied for"value="course" />BCA 
+                    <input type="radio"id=""name="course applied for"value="course" />B.Com
+                    <input type="radio"id=""name="course applied for"value="course" />B.Sc 
+                    <input type="radio"id=""name="course applied for"value="course" />B.A
+                    </td>                                                                  
+                   </tr>
+                  <tr>
+                    <td colspan="2"></td>
+
+               </select>
+               </td>                                                                  
+              </tr>
+              <tr>
+                <td label for="address">ADDRESS</td></label>
+                <td>
+                    <textarea name="address" id="" cols="30" rows="4"></textarea>
+                </td>
+                </tr>
+                <tr>
+                      
+                    </td>
+                    
+
+<tr align="center">
+
+   <td><input type="submit" value="Submit">
+    <input type="reset" value="Reset"></td> </align>
+
+</tr>
+        
+</table>
+</form>
+
+<table align="center">
+    <tr>
+   <td>  <h3><a href="index.html">Home  </a></h3></td><br>
+      <td>  <h3><a href="course.html">Course  </a> </h3></td><br>
+  
+      <td>  <h3><a href="reg.html.html">Registration Form  </a></h3></td><br>
+  
+      <td>  <h3><a href="about.html">About Us  </a></h3></td><br>
+  
+      <td>  <h3><a href="contact us.html">Contect Us </a><h3></td></h1> <br>
+    </tr>
+  </table>
+    </table>
+    </div>
+</body>
+</html>
